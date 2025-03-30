@@ -48,7 +48,7 @@ export default function Portfolio() {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
               Hi, I'm <span className="text-primary">Kevin</span>
               <br />
-              UI/UX and Fullstack Developer
+              Fullstack Developer and Software Engineer
             </h1>
             <p className="text-xl text-muted-foreground max-w-[600px]">
               I build exceptional digital experiences with modern technologies. Currently seeking my first internship
@@ -107,8 +107,8 @@ export default function Portfolio() {
                 <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                   <Palette className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-medium text-lg">UI/UX Design</h3>
-                <p className="text-sm text-muted-foreground">I create intuitive and beautiful user interfaces</p>
+                <h3 className="font-medium text-lg">Problem Solving & Algorithms</h3>
+                <p className="text-sm text-muted-foreground">I craft optimized solutions with data structures and algorithms</p>
               </Card>
               <Card className="p-6 flex flex-col items-center text-center">
                 <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
@@ -194,7 +194,7 @@ export default function Portfolio() {
                 title: "AI-Powered Short Video Generator ",
                 description:
                   "Developed a full-stack web application enabling users to generate short AI-powered videos. Designed a modern, responsive UI",
-                tags: ["Next.js", "React", "Tailwind CSS", "AI"],
+                tags: ["Next.js", "React", "Tailwind CSS", "AI", "Clerk", "Neon"],
                 image: "/placeholder.svg?height=200&width=400",
               },
               {
