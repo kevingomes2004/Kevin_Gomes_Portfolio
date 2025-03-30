@@ -48,7 +48,7 @@ export default function Portfolio() {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
               Hi, I'm <span className="text-primary">Kevin</span>
               <br />
-              Fullstack Developer and Software Engineer
+              Software Engineer
             </h1>
             <p className="text-xl text-muted-foreground max-w-[600px]">
               I build exceptional digital experiences with modern technologies. Currently seeking my first internship
@@ -137,14 +137,14 @@ export default function Portfolio() {
               { name: "JavaScript", level: 85 },
               { name: "TypeScript", level: 80 },
               { name: "React", level: 85 },
-              { name: "Next.js", level: 75 },
-              { name: "Tailwind CSS", level: 90 },
+              { name: "Cloud Functions", level: 50 },
+              { name: "SpringBoot", level: 70 },
               { name: "Node.js", level: 45 },
               { name: "Express", level: 40 },
               { name: "MongoDB", level: 60 },
               { name: "SQL", level: 80 },
-              { name: "Git", level: 80 },
-              { name: "Figma", level: 90 },
+              { name: "Laravel", level: 50 },
+              { name: "Angular", level: 70 },
             ].map((skill, index) => (
               <Card key={index} className="p-6">
                 <h3 className="font-medium mb-2">{skill.name}</h3>
