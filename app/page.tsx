@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Code, ExternalLink, Github, Instagram, Layers, Linkedin, Mail, Palette, Server } from "lucide-react"
+import { ArrowRight, Code, ExternalLink, Github, Instagram, Layers, Linkedin, Mail, Braces, Server } from "lucide-react"
 import { title } from "process"
 
 export default function Portfolio() {
@@ -48,7 +48,7 @@ export default function Portfolio() {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
               Hi, I'm <span className="text-primary">Kevin</span>
               <br />
-              Software Engineer
+              UI/UX Designer and Software Engineer
             </h1>
             <p className="text-xl text-muted-foreground max-w-[600px]">
               I build exceptional digital experiences with modern technologies. Currently seeking my first internship
@@ -105,7 +105,7 @@ export default function Portfolio() {
               </Card>
               <Card className="p-6 flex flex-col items-center text-center">
                 <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Palette className="h-6 w-6 text-primary" />
+                  <Braces className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-medium text-lg">Problem Solving & Algorithms</h3>
                 <p className="text-sm text-muted-foreground">I craft optimized solutions with data structures and algorithms</p>
@@ -139,8 +139,8 @@ export default function Portfolio() {
               { name: "React", level: 85 },
               { name: "Cloud Functions", level: 50 },
               { name: "SpringBoot", level: 70 },
-              { name: "Node.js", level: 45 },
-              { name: "Express", level: 40 },
+              { name: "Node.js", level: 60 },
+              { name: "Express", level: 60 },
               { name: "MongoDB", level: 60 },
               { name: "SQL", level: 80 },
               { name: "Laravel", level: 50 },
