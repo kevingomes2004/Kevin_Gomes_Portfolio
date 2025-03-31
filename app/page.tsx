@@ -145,6 +145,10 @@ export default function Portfolio() {
               { name: "SQL", level: 80 },
               { name: "Laravel", level: 50 },
               { name: "Angular", level: 70 },
+              { name: "Figma", level: 80 },
+              { name: "Tailwind CSS", level: 90 },
+              { name: "PHP", level: 80 },
+              { name: "Git", level: 80 },
             ].map((skill, index) => (
               <Card key={index} className="p-6">
                 <h3 className="font-medium mb-2">{skill.name}</h3>
